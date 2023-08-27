@@ -1,7 +1,11 @@
 import Banner from '@/Components/Banner'
+import CardSection from '@/Components/CardSection'
 import Dinning from '@/Components/Dinning'
+import Entertainment from '@/Components/Entertainment'
 import Explore from '@/Components/Explore'
+import Footer from '@/Components/Footer'
 import Fountain from '@/Components/Fountain'
+import Gallery from '@/Components/Gallery'
 import Navbar from '@/Components/Navbar/Navbar'
 import Resort from '@/Components/Resort'
 
@@ -10,11 +14,14 @@ export default function Home() {
     <main className="">
       <Navbar></Navbar>
       <Banner></Banner>
+      <CardSection></CardSection>
+      <Entertainment></Entertainment>
       <Resort></Resort>
       <Fountain></Fountain>
       <Dinning></Dinning>
       <Explore></Explore>
-
+      <Gallery></Gallery>
+      <Footer></Footer>
 
     </main>
   )

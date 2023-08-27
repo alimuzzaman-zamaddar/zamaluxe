@@ -2,9 +2,10 @@ import { BiSolidPhoneCall, BiSolidMap } from "react-icons/bi";
 import { FaEnvelope } from "react-icons/fa";
 const Navbar = () => {
   return (
-    <div className="bg-[#001446]">
+    <div className="">
+    <div className="bg-[#001446] ">
     <div className="   border-b-[1px] border-gray-600">
-      <div className="flex items-center  p-5 pb-0 md:max-w-[1480px] mx-auto justify-between ">
+      <div className="flex items-center p-5 pb-0 md:max-w-[1480px] mx-auto justify-between ">
         <div className="flex items-center text-white">
           <BiSolidPhoneCall className="mr-5" />
           <FaEnvelope  className="mr-5"/>
@@ -31,6 +32,7 @@ const Navbar = () => {
           <a href="#">EVENTS</a>
           <a href="#">OFFERS</a>
         </div>
+    </div>
     </div>
   );
 };
