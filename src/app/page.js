@@ -1,5 +1,6 @@
 import Banner from '@/Components/Banner'
 import CardSection from '@/Components/CardSection'
+import Dessert from '@/Components/Dessert'
 import Dinning from '@/Components/Dinning'
 import Entertainment from '@/Components/Entertainment'
 import Explore from '@/Components/Explore'
@@ -21,6 +22,7 @@ export default function Home() {
       <Dinning></Dinning>
       <Explore></Explore>
       <Gallery></Gallery>
+      <Dessert></Dessert>
       <Footer></Footer>
 
     </main>

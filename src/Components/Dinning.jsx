@@ -9,12 +9,13 @@ const Dinning = () => {
 //       }, [])
     return (
         <div className="bg-[#faf5eb] py-20">
-            <div className=" py-14 w-2/4 mx-auto text-center text-blue-950 ">
+            <div className=" py-14 w-2/4 mx-auto text-center text-blue-950 " data-aos="fade-up"
+     data-aos-anchor-placement="bottom-bottom">
                 <h1 className="text-4xl font-serif pb-5 border-b-[1px] border-blue-950 mb-6">DUBAI’S PREMIER DINING DESTINATION</h1>
                 <p>We have selected some of the finest chefs in the world to create exceptional dining experiences like no other. Home to 17 world-class restaurants, including 8 helmed by celebrity chefs, Atlantis The Royal joins forces with Atlantis, The Palm to create a leading culinary destination in Dubai. From Michelin-starred concepts to  showstoppers, the world has not seen culinary mastery until now.</p>
             </div>
         <div className="grid grid-cols-1 md:grid-cols-4 gap-5 w-[1300px] mx-auto">
-            <div className="">
+            <div className="" data-aos="flip-left">
                 <div className="overflow-hidden ">
                 <img className="hover:scale-125 h-[230px] duration-1000" src="https://assets.kerzner.com/api/public/content/774426dc63bc42478257419460690c82?v=9813ca0a&t=w576" alt="" />
                 </div>
@@ -24,7 +25,7 @@ const Dinning = () => {
                 <br />
                 <button className="px-[33px] border-2 border-[#171255] bg-transparent hover:bg-[#d3aa2f] duration-700 py-3 text-[#171255]">Explore</button>
             </div>
-            <div className="">
+            <div className="" data-aos="flip-left">
                 <div className="overflow-hidden">
                 <img className="hover:scale-125  h-[230px] duration-1000" src="https://assets.kerzner.com/api/public/content/12704f1115944ca3868fb0014b1548bd?v=d138b03c&t=w576" alt="" />
                 </div>
@@ -34,7 +35,7 @@ const Dinning = () => {
                 <br />
                 <button className="px-[33px] border-2 border-[#171255] bg-transparent hover:bg-[#d3aa2f] duration-700 py-3 text-[#171255]">Explore</button>
             </div>
-            <div className="">
+            <div className="" data-aos="flip-left">
                 <div className="overflow-hidden">
                 <img className="hover:scale-125  h-[230px] w-full duration-1000" src="https://assets.kerzner.com/api/public/content/31297253f34747609844686cadbad6c0?v=275c4751&t=w576" alt="" />
                 </div>
@@ -44,7 +45,7 @@ const Dinning = () => {
                 <br />
                 <button className="px-[33px] border-2 border-[#171255] bg-transparent hover:bg-[#d3aa2f] duration-700 py-3 text-[#171255]">Explore</button>
             </div>
-            <div className="">
+            <div className="" data-aos="flip-left">
                 <div className="overflow-hidden">
                 <img className="hover:scale-125  h-[230px] w-full duration-1000" src="https://assets.kerzner.com/api/public/content/3f43affb19014bbaa9c39012ee2f87ba?v=8d44f544&t=w576" alt="" />
                 </div>

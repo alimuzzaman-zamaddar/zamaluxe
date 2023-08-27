@@ -6,7 +6,7 @@ import "aos/dist/aos.css";
 import { Carousel } from "flowbite-react";
 const Banner = () => {
   return (
-    <div className="relative" data-aos="fade-up">
+    <div className="relative">
       <Carousel
         leftControl="<"
         rightControl=">"

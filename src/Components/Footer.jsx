@@ -1,6 +1,6 @@
-'use client';
+"use client";
 
-import { Button, Checkbox, Label, TextInput } from 'flowbite-react';
+import { Button, Checkbox, Label, TextInput } from "flowbite-react";
 
 import {
   FaDiscord,
@@ -12,35 +12,67 @@ import {
 
 const Footer = () => {
   return (
-    <div className='text-[#dcb84e] bg-[#001446]'>
+    <div className="text-[#dcb84e] bg-[#001446]">
       <div className="">
         <div className="">
-            <h1 className='text-center text-2xl text-[#dcb84e] pt-10 font-serif'>THE ROYEL ZAMALUXE</h1>
+          <h1 className="text-center text-2xl text-[#dcb84e] pt-10 font-serif">
+            THE ROYEL ZAMALUXE
+          </h1>
         </div>
         <div className="">
           <form className="flex max-w-xl flex-col gap-4 mx-auto py-11 text-[#dcb84e] ">
             <div>
-              <div className="mb-2 block">
-                <Label htmlFor="email1" value="Your email" />
+              <div className="mb-2 block ">
+                <Label
+                  className="text-[#dcb84e]"
+                  htmlFor="email1"
+                  value="Your email"
+                />
               </div>
               <TextInput
                 id="email1"
                 placeholder="Name@Email.com"
                 required
                 type="email"
+                data-aos="fade-right"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine"
               />
             </div>
             <div>
-              <div className="mb-2 block">
-                <Label htmlFor="phone" value="Your phone" />
+              <div className="mb-2 block ">
+                <Label
+                  className="text-[#dcb84e]"
+                  htmlFor="phone"
+                  value="Your phone"
+                />
               </div>
-              <TextInput id="phone" required type="text" />
+              <TextInput
+                id="phone"
+                required
+                type="text"
+                data-aos="fade-left"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine"
+              />
             </div>
-            <Button className='bg-[#877a52] hover:bg-[#d3aa2f] duration-700 py-3 text-white' type="submit">Send</Button>
+            <Button
+              data-aos="fade-right"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine"
+              className="bg-[#877a52] hover:bg-[#d3aa2f] duration-700 py-3 text-white"
+              type="submit"
+            >
+              Send
+            </Button>
           </form>
         </div>
       </div>
-      <div className="grid grid-cols-4 font-serif py-5 border-b-[1px] w-[95%] mx-auto ">
+      <div
+        className="grid grid-cols-4 font-serif py-5 border-b-[1px] border-[#dcb84e] w-[95%] mx-auto "
+        data-aos="fade-up"
+        data-aos-anchor-placement="bottom-bottom"
+      >
         <div className="">
           <h1 className="mb-6 text-2xl ">ZAMALUXE RESOURT</h1>
           <p className="mb-2">DHAKA </p>

@@ -7,10 +7,12 @@ const CardSection = () => {
   return (
     <div className="bg-orange-50">
       <div className=" pt-14 w-2/4 mx-auto text-center text-blue-950 ">
-        <h1 className="text-4xl font-serif pb-5 border-b-[1px] border-blue-950 mb-6">
+        <h1 className="text-4xl font-serif pb-5 border-b-[1px] border-blue-950 mb-6" data-aos="fade-up"
+     data-aos-duration="3000">
           FIND THE PLACE YOU LIKE AND EXPLORE LUXARY LIFE.
         </h1>
-        <p>
+        <p data-aos="fade-up"
+     data-aos-duration="3000">
           We have selected some of the finest chefs in the world to create
           exceptional dining experiences like no other. Home to 17 world-class
           restaurants, including 8 helmed by celebrity chefs, Atlantis The Royal

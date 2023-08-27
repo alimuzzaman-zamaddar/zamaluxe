@@ -13,9 +13,9 @@ const Navbar = () => {
           <p className="text-sm">EXPLORE THE DESTINATION</p>
         </div>
         <div className="text-center text-[#dcb84e] font-serif mr-16 ">
-          <h1 className="text-2xl">AL ZAMALUXE</h1>
-          <h2 className="text-xl">The Royel</h2>
-          <p className="text-xs">Dhaka</p>
+          <h1 className="text-4xl">AL ZAMALUXE</h1>
+          <h2 className="text-xs mb-3">The Royel</h2>
+          {/* <p className="text-xs">Dhaka</p> */}
         </div>
         <div className="">
           <button className="px-8 bg-[#877a52] hover:bg-[#d3aa2f] duration-700 py-3 text-white">Book Now</button>
