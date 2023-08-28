@@ -1,9 +1,8 @@
-"use client"
+
+import Checkout from './Checkout'
 import './globals.css'
 import { Inter } from 'next/font/google'
-import { React, useEffect } from 'react'
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -14,15 +13,11 @@ export const metadata = {
 }
 
 export default function RootLayout({ children }) {
-  useEffect(() => {
-    AOS.init({
-         duration: 800,
-         once: false,
-       })
- }, [])
+
   return (
     <html lang="en">
       <body className={inter.className}>
+        <Checkout></Checkout>
         {children}</body>
     </html>
   )
