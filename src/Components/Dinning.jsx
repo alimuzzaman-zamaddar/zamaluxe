@@ -1,12 +1,14 @@
-// 'use client'
-// import AOS from 'aos';
-
+"use client"
+import { React, useEffect } from 'react'
+import AOS from 'aos';
 import 'aos/dist/aos.css';
-// import { useEffect } from 'react';
 const Dinning = () => {
-//     useEffect(() => {
-//         AOS.init();
-//       }, [])
+    useEffect(() => {
+        AOS.init({
+             duration: 800,
+             once: false,
+           })
+     }, [])
     return (
         <div className="bg-[#faf5eb] py-20">
             <div className=" py-14 w-2/4 mx-auto text-center text-blue-950 " data-aos="fade-up"
